@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   const apiRoot = 'https://whispering-oasis-09032.herokuapp.com/v1/tasks';
+   const apiRoot = 'https://whispering-oasis-09032.herokuapp.com/v1/';
    const trelloApiRoot = 'https://trello.com/michalzolkiewicz/boards/v1/trello/';
    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
    const $tasksContainer = $('[data-tasks-container]');
